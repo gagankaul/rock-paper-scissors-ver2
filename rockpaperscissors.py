@@ -49,7 +49,7 @@ for play in range (1, rounds+1):
                 elif player_pick == "paper":
                     message = "Scissors wins against paper."
                     winner = "computer"
-            elif computer_pick == "paper":
+            else:
                 if player_pick == "scissors":
                     message = "Scissors wins against paper."
                     winner = "player"
